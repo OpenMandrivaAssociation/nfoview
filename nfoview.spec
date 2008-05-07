@@ -10,6 +10,7 @@ URL:            http://home.gna.org/nfoview/
 Source0:        http://download.gna.org/nfoview/1.1/%{name}-%{version}.tar.gz
 
 BuildRequires:  python
+BuildRequires:	pygtk2.0
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 BuildArch:	noarch
 
