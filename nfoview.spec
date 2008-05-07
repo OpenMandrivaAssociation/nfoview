@@ -8,14 +8,17 @@ License:        GPLv3+
 Group:          File tools
 URL:            http://home.gna.org/nfoview/
 Source0:        http://download.gna.org/nfoview/1.1/%{name}-%{version}.tar.gz
+Patch0:		nfoview-1.1.1-fix-build-without-x.patch
 
 BuildRequires:  python
 BuildRequires:	pygtk2.0
+BuildRequires:	pygtk2.0-libglade
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 BuildArch:	noarch
 
 %{py_requires}
 Requires:	pygtk2.0
+Requires:	pygtk2.0-libglade
 Suggests:	terminus-font
 
 %description
@@ -26,6 +29,7 @@ size and clickable hyperlinks.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__python} setup.py build
