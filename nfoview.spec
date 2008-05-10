@@ -1,6 +1,6 @@
 
 Name:			nfoview
-Version:		1.1.1
+Version:		1.1.2
 Release:		%mkrel 1
 
 Summary:        Simple viewer for NFO files
@@ -8,7 +8,6 @@ License:        GPLv3+
 Group:          File tools
 URL:            http://home.gna.org/nfoview/
 Source0:        http://download.gna.org/nfoview/1.1/%{name}-%{version}.tar.gz
-Patch0:		nfoview-1.1.1-fix-build-without-x.patch
 
 BuildRequires:	intltool
 BuildRequires:  python-devel
@@ -30,7 +29,6 @@ size and clickable hyperlinks.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %{__python} setup.py build
