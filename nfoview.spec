@@ -1,5 +1,5 @@
 Name:           nfoview
-Version:        1.7
+Version:        1.8
 Release:        %mkrel 1
 Summary:        Simple viewer for NFO files
 License:        GPLv3+
@@ -62,3 +62,4 @@ size and clickable hyperlinks.
 %{_datadir}/applications/nfoview.desktop
 %{_mandir}/man1/nfoview.1*
 %{_datadir}/nfoview
+%{_datadir}/icons/hicolor/*/apps/nfoview.*
