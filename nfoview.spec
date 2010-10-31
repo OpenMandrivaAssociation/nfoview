@@ -1,6 +1,6 @@
 Name:           nfoview
 Version:        1.9.2
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Simple viewer for NFO files
 License:        GPLv3+
 Group:          File tools
@@ -14,7 +14,6 @@ BuildRequires:  intltool
 BuildRequires:  python-devel
 BuildRequires:  pygtk2.0
 BuildRequires:  pygtk2.0-libglade
-%{py_requires}
 Requires(post): desktop-common-data
 Requires(postun): desktop-common-data
 Requires(post): desktop-file-utils
@@ -41,18 +40,6 @@ size and clickable hyperlinks.
 
 %clean
 %{__rm} -rf %{buildroot}
-
-%if %mdkversion < 200900
-%post
-%{update_desktop_database}
-%{update_menus}
-%endif
-
-%if %mdkversion < 200900
-%postun
-%{clean_desktop_database}
-%{clean_menus}
-%endif
 
 %files -f %{name}.lang
 %defattr(-,root,root,-)
