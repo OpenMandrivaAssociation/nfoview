@@ -1,6 +1,6 @@
 Name:           nfoview
-Version:        1.9.2
-Release:        %mkrel 2
+Version:        1.9.3
+Release:        %mkrel 1
 Summary:        Simple viewer for NFO files
 License:        GPLv3+
 Group:          File tools
