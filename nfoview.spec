@@ -48,6 +48,7 @@ python setup.py install --root=%{buildroot}
 %{_mandir}/man1/nfoview.1*
 %{_datadir}/nfoview
 %{_datadir}/icons/hicolor/*/apps/nfoview.*
+%{_datadir}/appdata/nfoview.appdata.xml
 
 
 
