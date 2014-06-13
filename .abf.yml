@@ -1,2 +1,4 @@
+removed_sources:
+  nfoview-1.9.5.tar.bz2: caf8931af5aed8f72ad809ca9341eb566305ca3a
 sources:
-  "nfoview-1.9.5.tar.bz2": caf8931af5aed8f72ad809ca9341eb566305ca3a
+  nfoview-1.13.1.tar.xz: cf6d849e7b8c50e267e8a3b930389ae9d405691e
