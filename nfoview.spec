@@ -1,12 +1,12 @@
 Name:           nfoview
-Version:        1.14
+Version:        1.15
 Release:        1
 Summary:        Simple viewer for NFO files
 
 License:        GPLv3+
 Group:          File tools
 URL:            http://home.gna.org/nfoview/
-Source0:        http://download.gna.org/nfoview/1.14/%{name}-%{version}.tar.xz
+Source0:        http://download.gna.org/nfoview/1.15/%{name}-%{version}.tar.xz
 Requires:       pygtk2.0
 Requires:       pygtk2.0-libglade
 Suggests:       terminus-font
